@@ -1,0 +1,17 @@
+{
+  "name": "currency-dashboard-full",
+  "version": "1.0.0",
+  "description": "Full currency & metals dashboard with Node.js backend and modern frontend (Tailwind + Chart.js)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lru-cache": "^7.14.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}
